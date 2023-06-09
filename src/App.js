@@ -517,7 +517,7 @@ const Acheivements=()=>{
       ref4.current.style.border="none";
       isComplete0(true);
       }}
-      ><h1 style={{fontSize:'2.5Vmax'}} >Acheivements</h1></motion.div>
+      ><h1 style={{fontSize:'2.5Vmax'}} >Achievements</h1></motion.div>
       {complete0 && 
       <div style={{position:'relative',width:'22Vmax',borderRadius:'1px',height:'0.5vh'}}>
             <motion.div initial={{width:'1%',backgroundColor:'transparent'}} whileInView={{backgroundColor:'black',width:['0%','100%','0%'],left:['0%','0%','100%'],transition:{duration:1,ease:'linear'}}} viewport={{once:true,amount:0.5}} style={{borderRadius:'1px',height:'100%',position:'absolute',zIndex:4}}/>
