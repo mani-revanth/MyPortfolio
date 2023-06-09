@@ -395,7 +395,7 @@ const Certificate=(props)=>{
           }} onHoverEnd={()=>{
             animate.start({width:'0%'});
           }}>
-            <motion.img src={`${img_src}`} style={{width:'100%',height:'80%',borderRadius:'5%',position:'absolute',zIndex:'1'}}/>
+            <motion.img src={`${img_src}`} style={{width:'100%',height:'100%',borderRadius:'5%',position:'absolute',zIndex:'1'}}/>
             <motion.div initial={{width:'0%'}} animate={animate}  style={{position:'absolute',height:'100%',backgroundColor:'rgba(0,0,0,0.9)',textAlign:'center',fontFamily:'Abriac FatFace',justifyContent:'center',color:'white',overflow:'hidden',borderRadius:'5%',zIndex:'2',alignItems:'ceter'}}><h1>{text}</h1></motion.div>
           </motion.div>
     </Grid>
